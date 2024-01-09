@@ -99,6 +99,7 @@
 		7FAC0CEE2B4D5DA00076C969 /* HanaTest */ = {
 			isa = PBXGroup;
 			children = (
+				7FAC0D1F2B4D5E7B0076C969 /* ListPokemon */,
 				7FAC0CEF2B4D5DA00076C969 /* AppDelegate.swift */,
 				7FAC0CF12B4D5DA00076C969 /* SceneDelegate.swift */,
 				7FAC0CF32B4D5DA00076C969 /* ViewController.swift */,
@@ -125,6 +126,13 @@
 				7FAC0D122B4D5DA40076C969 /* HanaTestUITestsLaunchTests.swift */,
 			);
 			path = HanaTestUITests;
+			sourceTree = "<group>";
+		};
+		7FAC0D1F2B4D5E7B0076C969 /* ListPokemon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ListPokemon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
