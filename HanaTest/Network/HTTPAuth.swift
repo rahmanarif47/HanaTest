@@ -18,8 +18,8 @@ class HTTPAuth {
     }
     
     var apiKey: String {
-        //NEWS API
-        return "1d61b36a93c04c3c81039cb705762ff6"
+        //Pokemon API Key
+        return "a18e161e-a883-4f6c-a935-b5973ff21a6a"
     }
     
     var bearerToken: String? {
@@ -71,6 +71,7 @@ class HTTPAuth {
     enum tokenType {
         case basic
         case bearer
+        case apiKey
     }
     
 }
