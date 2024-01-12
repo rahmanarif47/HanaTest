@@ -69,6 +69,8 @@ extension URLRequest {
             self.setBasicAuth()
         case .bearer:
             self.setBearerAuth()
+        case .apiKey:
+            self.setApiKey()
         }
     }
     
@@ -103,6 +105,10 @@ extension URLRequest {
         } else {
             self.addValue("", forHTTPHeaderField: "Authorization")
         }
+    }
+    
+    private mutating func setApiKey() {
+        self.addValue(HTTPAuth.shared.apiKey, forHTTPHeaderField: "X-Api-Key")
     }
 }
 
