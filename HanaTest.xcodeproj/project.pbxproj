@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EF1FAC88C171A1432A2E560 /* Pods_HanaTest_HanaTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28E8427F2CC45EC36AE5761 /* Pods_HanaTest_HanaTestUITests.framework */; };
 		7FAC0CF02B4D5DA00076C969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC0CEF2B4D5DA00076C969 /* AppDelegate.swift */; };
 		7FAC0CF22B4D5DA00076C969 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC0CF12B4D5DA00076C969 /* SceneDelegate.swift */; };
 		7FAC0CF42B4D5DA00076C969 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC0CF32B4D5DA00076C969 /* ViewController.swift */; };
@@ -33,6 +34,8 @@
 		7FAC0D442B50C81E0076C969 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC0D432B50C81E0076C969 /* Media.swift */; };
 		7FAC0D462B50C8760076C969 /* HTTPInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC0D452B50C8760076C969 /* HTTPInfo.swift */; };
 		7FAC0D482B50C8AE0076C969 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC0D472B50C8AE0076C969 /* HTTPClient.swift */; };
+		8B502BE7EB49191FA3D0E7E5 /* Pods_HanaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9997D24205576AF6E2B0AFF2 /* Pods_HanaTestTests.framework */; };
+		DC36AACE59C17DC691859F43 /* Pods_HanaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94A1B0D3F68724260B826A3 /* Pods_HanaTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FAD2E76965C329E9CF9BE55 /* Pods-HanaTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanaTestTests.debug.xcconfig"; path = "Target Support Files/Pods-HanaTestTests/Pods-HanaTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2807E30D0EEE1143524788CD /* Pods-HanaTest-HanaTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanaTest-HanaTestUITests.release.xcconfig"; path = "Target Support Files/Pods-HanaTest-HanaTestUITests/Pods-HanaTest-HanaTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7FAC0CEC2B4D5DA00076C969 /* HanaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FAC0CEF2B4D5DA00076C969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FAC0CF12B4D5DA00076C969 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +88,13 @@
 		7FAC0D432B50C81E0076C969 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		7FAC0D452B50C8760076C969 /* HTTPInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPInfo.swift; sourceTree = "<group>"; };
 		7FAC0D472B50C8AE0076C969 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		8531481D033786C33F88A1DB /* Pods-HanaTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanaTestTests.release.xcconfig"; path = "Target Support Files/Pods-HanaTestTests/Pods-HanaTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		946E0A460A45FBEEA0A14AB0 /* Pods-HanaTest-HanaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanaTest-HanaTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-HanaTest-HanaTestUITests/Pods-HanaTest-HanaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9997D24205576AF6E2B0AFF2 /* Pods_HanaTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A673A1CFECB821D041238BF7 /* Pods-HanaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanaTest.release.xcconfig"; path = "Target Support Files/Pods-HanaTest/Pods-HanaTest.release.xcconfig"; sourceTree = "<group>"; };
+		A7408F9590AEDB32FC6F8B1E /* Pods-HanaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanaTest.debug.xcconfig"; path = "Target Support Files/Pods-HanaTest/Pods-HanaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B94A1B0D3F68724260B826A3 /* Pods_HanaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28E8427F2CC45EC36AE5761 /* Pods_HanaTest_HanaTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanaTest_HanaTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC36AACE59C17DC691859F43 /* Pods_HanaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B502BE7EB49191FA3D0E7E5 /* Pods_HanaTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF1FAC88C171A1432A2E560 /* Pods_HanaTest_HanaTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +132,8 @@
 				7FAC0D052B4D5DA30076C969 /* HanaTestTests */,
 				7FAC0D0F2B4D5DA40076C969 /* HanaTestUITests */,
 				7FAC0CED2B4D5DA00076C969 /* Products */,
+				D2E571098B6324283EEA6EEB /* Pods */,
+				9C43BA28AD969411F4FE1AFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -242,6 +259,30 @@
 			path = PublicModel;
 			sourceTree = "<group>";
 		};
+		9C43BA28AD969411F4FE1AFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B94A1B0D3F68724260B826A3 /* Pods_HanaTest.framework */,
+				D28E8427F2CC45EC36AE5761 /* Pods_HanaTest_HanaTestUITests.framework */,
+				9997D24205576AF6E2B0AFF2 /* Pods_HanaTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E571098B6324283EEA6EEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7408F9590AEDB32FC6F8B1E /* Pods-HanaTest.debug.xcconfig */,
+				A673A1CFECB821D041238BF7 /* Pods-HanaTest.release.xcconfig */,
+				946E0A460A45FBEEA0A14AB0 /* Pods-HanaTest-HanaTestUITests.debug.xcconfig */,
+				2807E30D0EEE1143524788CD /* Pods-HanaTest-HanaTestUITests.release.xcconfig */,
+				0FAD2E76965C329E9CF9BE55 /* Pods-HanaTestTests.debug.xcconfig */,
+				8531481D033786C33F88A1DB /* Pods-HanaTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FAC0D162B4D5DA40076C969 /* Build configuration list for PBXNativeTarget "HanaTest" */;
 			buildPhases = (
+				4877B404E0130AAE293672AB /* [CP] Check Pods Manifest.lock */,
 				7FAC0CE82B4D5DA00076C969 /* Sources */,
 				7FAC0CE92B4D5DA00076C969 /* Frameworks */,
 				7FAC0CEA2B4D5DA00076C969 /* Resources */,
+				7E55909A81388F4078E100FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FAC0D192B4D5DA40076C969 /* Build configuration list for PBXNativeTarget "HanaTestTests" */;
 			buildPhases = (
+				A4F4C965B100DE09CFB040BB /* [CP] Check Pods Manifest.lock */,
 				7FAC0CFE2B4D5DA30076C969 /* Sources */,
 				7FAC0CFF2B4D5DA30076C969 /* Frameworks */,
 				7FAC0D002B4D5DA30076C969 /* Resources */,
+				9271BCD7EEFA8FF419DB2568 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,9 +329,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FAC0D1C2B4D5DA40076C969 /* Build configuration list for PBXNativeTarget "HanaTestUITests" */;
 			buildPhases = (
+				214AD56253DD276504CE99CE /* [CP] Check Pods Manifest.lock */,
 				7FAC0D082B4D5DA30076C969 /* Sources */,
 				7FAC0D092B4D5DA30076C969 /* Frameworks */,
 				7FAC0D0A2B4D5DA30076C969 /* Resources */,
+				BA24B2D96C6706471FDBAA10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,7 +369,7 @@
 				};
 			};
 			buildConfigurationList = 7FAC0CE72B4D5DA00076C969 /* Build configuration list for PBXProject "HanaTest" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -367,6 +414,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		214AD56253DD276504CE99CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HanaTest-HanaTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4877B404E0130AAE293672AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HanaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E55909A81388F4078E100FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HanaTest/Pods-HanaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HanaTest/Pods-HanaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HanaTest/Pods-HanaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9271BCD7EEFA8FF419DB2568 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HanaTestTests/Pods-HanaTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HanaTestTests/Pods-HanaTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HanaTestTests/Pods-HanaTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F4C965B100DE09CFB040BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HanaTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA24B2D96C6706471FDBAA10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HanaTest-HanaTestUITests/Pods-HanaTest-HanaTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HanaTest-HanaTestUITests/Pods-HanaTest-HanaTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HanaTest-HanaTestUITests/Pods-HanaTest-HanaTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7FAC0CE82B4D5DA00076C969 /* Sources */ = {
@@ -569,6 +736,7 @@
 		};
 		7FAC0D172B4D5DA40076C969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7408F9590AEDB32FC6F8B1E /* Pods-HanaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -597,6 +765,7 @@
 		};
 		7FAC0D182B4D5DA40076C969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A673A1CFECB821D041238BF7 /* Pods-HanaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -625,6 +794,7 @@
 		};
 		7FAC0D1A2B4D5DA40076C969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAD2E76965C329E9CF9BE55 /* Pods-HanaTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -645,6 +815,7 @@
 		};
 		7FAC0D1B2B4D5DA40076C969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8531481D033786C33F88A1DB /* Pods-HanaTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -665,6 +836,7 @@
 		};
 		7FAC0D1D2B4D5DA40076C969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946E0A460A45FBEEA0A14AB0 /* Pods-HanaTest-HanaTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -683,6 +855,7 @@
 		};
 		7FAC0D1E2B4D5DA40076C969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2807E30D0EEE1143524788CD /* Pods-HanaTest-HanaTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
