@@ -1,0 +1,20 @@
+name: Pull Request
+
+on: 
+  pull_request:
+    branches:
+    - develop
+  workflow_dispatch:
+    
+jobs:
+  test:
+    runs-on: macos-14
+    steps:
+      - uses: action/checkout@v2
+
+      - name: Cancel Previos Runs 
+        uses: styfle/cancel-workflow-actio@0.9.1
+        with: 
+          access_tokenn: ${{ github.token }}
+
+      - uses: action/checkout@v2
